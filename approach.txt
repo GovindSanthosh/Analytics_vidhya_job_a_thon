@@ -1,0 +1,11 @@
+Forecast green energy - Approach
+● The data is hourly and has a seasonality of 24 hours.
+● There seems to be a significant upward trend in the middle of 2014
+● The data after this upward trend was used
+● Missing values were imputed using adjacent values.
+● The data is stationary at a very high significant value in the
+dickey-fuller test.
+● A SARIMA model was used for predicting.
+● Several different hyper parameters were tested and the best model
+was submitted for correction
+● The submitted model used ARIMA(3,0,3)X(3,1,3)24.
